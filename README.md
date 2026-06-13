@@ -37,23 +37,23 @@ trellis init --template https://github.com/your-username/standard-trellis-templa
 
 ## 项目结构
 
-```
-.trellis/
-├── spec/                  # 规范文档（随版本管理）
-│   ├── language.md         # 编程语言规范
-│   ├── framework.md        # 框架使用规范
-│   ├── architecture.md     # 架构设计原则
-│   ├── testing.md          # 测试规范
-│   ├── lint.md             # 代码风格规范
-│   └── security.md         # 安全规范
-├── tasks/                 # 任务跟踪
-│   └── [task-id]/
-│       ├── prd.md
-│       ├── implement.jsonl
-│       └── check.jsonl
-└── workspace/             # 工作区记忆（不提交）
-    └── journal/
-```
+项目使用 Trellis 框架，包含以下目录和文件：
+
+**.trellis/spec/** - 规范文档目录，包含 6 个核心规范文件：
+- language.md（编程语言规范）
+- framework.md（框架使用规范）
+- architecture.md（架构设计原则）
+- testing.md（测试规范）
+- lint.md（代码风格规范）
+- security.md（安全规范）
+
+**.trellis/tasks/** - 任务跟踪目录，每个任务一个子目录，包含 PRD 和实现/审查上下文
+
+**.trellis/workspace/** - 个人工作区（不提交到版本控制）
+
+**CLAUDE.md** - Claude Code 平台适配文件（自动生成）
+
+**AGENTS.md** - 其他 AI Agent 平台适配文件（自动生成）
 
 ### 目录说明
 
@@ -99,25 +99,13 @@ trellis init --template https://github.com/your-username/standard-trellis-templa
 
 ## 使用工作流
 
-1. **需求阶段** 📝
-   ```
-   与 AI 头脑风暴 → trellis-brainstorm → 产出 PRD
-   ```
+1. **需求阶段** 📝 - 与 AI 头脑风暴 → trellis-brainstorm → 产出 PRD
 
-2. **实现阶段** 💻
-   ```
-   AI 调用 trellis-implement → 按规范编写代码
-   ```
+2. **实现阶段** 💻 - AI 调用 trellis-implement → 按规范编写代码
 
-3. **验证阶段** 🔍
-   ```
-   AI 调用 trellis-check → lint + type-check + tests
-   ```
+3. **验证阶段** 🔍 - AI 调用 trellis-check → lint + type-check + tests
 
-4. **收尾阶段** ✅
-   ```
-   /trellis:finish-work → 沉淀新认知到 Spec
-   ```
+4. **收尾阶段** ✅ - /trellis:finish-work → 沉淀新认知到 Spec
 
 ## 支持的平台
 
