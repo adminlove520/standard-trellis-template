@@ -23,10 +23,10 @@ setup(
     package_data={
         "trellis_standard": ["template/*", "template/spec/*"],
     },
+    include_package_data=True,
     install_requires=[],
     python_requires=">=3.9",
     license="MIT",
-    license_files=("LICENSE",),
     keywords=[
         "trellis",
         "ai",

@@ -10,6 +10,7 @@ authors = [
     {name = "whoami", email = "whoami@example.com"}
 ]
 license = {text = "MIT"}
+license-files = ["LICENSE"]
 requires-python = ">=3.9"
 keywords = [
     "trellis",
