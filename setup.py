@@ -26,6 +26,7 @@ setup(
     install_requires=[],
     python_requires=">=3.9",
     license="MIT",
+    license_files=("LICENSE",),
     keywords=[
         "trellis",
         "ai",
