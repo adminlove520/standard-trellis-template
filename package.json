@@ -1,0 +1,48 @@
+{
+  "name": "create-trellis-standard",
+  "version": "1.0.0",
+  "description": "Standard Trellis template for AI-assisted development across all platforms",
+  "main": "index.js",
+  "bin": {
+    "create-trellis-standard": "./bin/create.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run lint"
+  },
+  "keywords": [
+    "trellis",
+    "ai",
+    "claude",
+    "openclaw",
+    "hermes",
+    "cursor",
+    "template",
+    "coding-standard"
+  ],
+  "author": "whoami",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/standard-trellis-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/standard-trellis-template/issues"
+  },
+  "homepage": "https://github.com/your-username/standard-trellis-template#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "fs-extra": "^11.2.0",
+    "template-file": "^6.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  }
+}

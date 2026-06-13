@@ -1,0 +1,26 @@
+# 源文件（仅发布编译后的文件）
+src/
+bin/create.js
+
+# 开发文件
+.eslintrc.js
+.prettierrc.js
+
+# 测试
+test/
+__tests__/
+*.test.js
+*.spec.js
+
+# 文档
+docs/
+CONTRIBUTING.md
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# 其他
+.DS_Store
+Thumbs.db

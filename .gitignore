@@ -1,0 +1,38 @@
+# Trellis 工作区（个人记忆，不提交）
+.trellis/workspace/
+
+# 依赖
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 构建输出
+dist/
+build/
+out/
+
+# 开发
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+*.log
+
+# 环境
+.env
+.env.local
+.env.*.local
+
+# 测试
+coverage/
+.nyc_output/
+
+# 临时
+tmp/
+temp/
+*.tmp
