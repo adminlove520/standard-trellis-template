@@ -1,10 +1,16 @@
+import os
 from setuptools import setup, find_packages
+
+# 读取 README.md 并确保正确的编码
+this_directory = os.path.abspath(os.path.dirname(__file__))
+with open(os.path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
 
 setup(
     name="trellis-standard-template",
     version="1.0.0",
     description="Standard Trellis template for AI-assisted development across all platforms",
-    long_description=open("README.md").read(),
+    long_description=long_description,
     long_description_content_type="text/markdown",
     author="whoami",
     author_email="whoami@example.com",

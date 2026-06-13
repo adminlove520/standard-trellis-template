@@ -126,32 +126,24 @@ trellis init --template https://github.com/your-username/standard-trellis-templa
 
 你可以根据项目需求修改 .trellis/spec/ 中的文件。
 
-**示例命令：**
+示例命令：
 
-```bash
-# 编辑语言规范
-code .trellis/spec/language.md
-
-# 添加项目特定规范
-echo "# My Custom Spec" > .trellis/spec/custom.md
-```
+使用代码编辑器打开语言规范文件进行编辑。
 
 ## 团队协作
 
 ### 提交规范到版本控制
 
-```bash
+使用以下命令提交规范文件到版本控制：
+
 git add .trellis/spec/ .trellis/tasks/
 git commit -m "docs: 更新项目规范"
-```
 
 ### 排除个人工作区
 
 确保 .gitignore 文件包含以下内容：
 
-```text
 .trellis/workspace/
-```
 
 ## 常见问题
 
