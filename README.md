@@ -58,6 +58,12 @@ CLAUDE.md                   # Claude Code 适配（自动生成）
 AGENTS.md                   # 其他 Agent 适配（自动生成）
 ```
 
+### 目录说明
+
+- `.trellis/spec/` - 项目规范文档，随版本管理
+- `.trellis/tasks/` - 任务跟踪和 PRD
+- `.trellis/workspace/` - 个人工作区，不提交到版本控制
+
 ## 规范说明
 
 ### language.md
