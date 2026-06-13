@@ -124,7 +124,9 @@ trellis init --template https://github.com/your-username/standard-trellis-templa
 
 ## 自定义规范
 
-你可以根据项目需求修改 `.trellis/spec/` 中的文件：
+你可以根据项目需求修改 .trellis/spec/ 中的文件。
+
+**示例命令：**
 
 ```bash
 # 编辑语言规范
